@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://docs.brew.sh/rubydoc/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class TagSelecta < Formula
+class Tagselecta < Formula
   desc "TagSelecta is a cross-platform vim inspired tool for managing audio file metadata (tags). "
   homepage "https://cantti.github.io/tagselecta"
   license "GPL-3.0"
