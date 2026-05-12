@@ -1,28 +1,28 @@
 class Tagselecta < Formula
   desc "Vim-inspired tool for managing audio file metadata"
   homepage "https://cantti.github.io/tagselecta"
-  version "2.0.1"
+  version "2.2.0"
   license "GPL-3.0-only"
 
   on_linux do
     on_arm do
       url "https://github.com/cantti/tagselecta/releases/download/v#{version}/tagselecta-linux-arm64.zip"
-      sha256 "d4761d5518d9107e854e544d772f9710a9cbc9c10ff0da48a30f56309c89c5d2"
+      sha256 "bf79579dc19366762723330298e948234dde1c8c273f63837dbff1027cba466c"
     end
     on_intel do
       url "https://github.com/cantti/tagselecta/releases/download/v#{version}/tagselecta-linux-x64.zip"
-      sha256 "43523b3cdf7c09d282cf7c877540f797448ce92763b355820105ae55a67f9885"
+      sha256 "855d66929c6f5deba53b6d0e9c5ae8972d4df4139f32949bcd61c5ce7992209f"
     end
   end
 
   on_macos do
     on_arm do
       url "https://github.com/cantti/tagselecta/releases/download/v#{version}/tagselecta-osx-arm64.zip"
-      sha256 "7591abb155ae8bf762c95b04995f3794f7198d721d563274d3a21b923674abbe"
+      sha256 "6b07df5cff51ea397b2b2e6ea82238a06c3cd100aef202f78ca0c6a6bd1dd203"
     end
     on_intel do
       url "https://github.com/cantti/tagselecta/releases/download/v#{version}/tagselecta-osx-x64.zip"
-      sha256 "b94cae5e3788bd4dae1e58d217482380d887dfee0ce3b0416c2124ea98d381ca"
+      sha256 "2e295a598cadc60860a364aea631652064977decf6a42e614bb5e48b49ce15ec"
     end
   end
 
