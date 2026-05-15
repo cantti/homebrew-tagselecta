@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install cantti/tagselecta/<formula>`
+`brew install cantti/tagselecta/tagselecta`
 
-Or `brew tap cantti/tagselecta` and then `brew install <formula>`.
+Or `brew tap cantti/tagselecta` and then `brew install tagselecta`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "cantti/tagselecta"
-brew "<formula>"
+brew "tagselecta"
 ```
 
 ## Documentation
